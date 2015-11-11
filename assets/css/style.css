@@ -1,0 +1,198 @@
+/* line 4, ../compass/sass/style.scss */
+.A {
+  border-bottom: 1px solid black;
+}
+/* line 6, ../compass/sass/style.scss */
+.A .search-bar {
+  margin-top: 10%;
+  width: 70%;
+}
+/* line 10, ../compass/sass/style.scss */
+.A .links {
+  margin-top: 3%;
+}
+/* line 13, ../compass/sass/style.scss */
+.A .row {
+  text-align: center;
+}
+/* line 15, ../compass/sass/style.scss */
+.A .row #youtube {
+  margin-bottom: -4%;
+}
+/* line 18, ../compass/sass/style.scss */
+.A .row span {
+  margin: 0px 8%;
+}
+/* line 22, ../compass/sass/style.scss */
+.A .row.two {
+  margin-bottom: 2%;
+  margin-top: 1.5%;
+}
+
+/* line 28, ../compass/sass/style.scss */
+.B {
+  padding-left: 0%;
+  padding-right: 0%;
+}
+/* line 32, ../compass/sass/style.scss */
+.B #prof-pic img {
+  width: 100%;
+}
+/* line 37, ../compass/sass/style.scss */
+.B .row #comment-section {
+  padding-left: 0px;
+}
+/* line 40, ../compass/sass/style.scss */
+.B .row #comment-section #comment-header {
+  padding-left: 0px;
+}
+/* line 44, ../compass/sass/style.scss */
+.B .row #comment-section #comment1, .B .row #comment-section #comment2 {
+  padding-left: 0;
+}
+/* line 46, ../compass/sass/style.scss */
+.B .row #comment-section #comment1 .user, .B .row #comment-section #comment2 .user {
+  margin-bottom: 2.5%;
+  padding-left: 0px;
+}
+
+/* line 59, ../compass/sass/style.scss */
+#more-videos .thumb {
+  margin: 2.5% 0%;
+}
+/* line 62, ../compass/sass/style.scss */
+#more-videos .info {
+  padding: 3%;
+  font-size: 10px;
+}
+
+/* line 67, ../compass/sass/style.scss */
+#prof-info {
+  font-size: 10px;
+}
+
+/* line 70, ../compass/sass/style.scss */
+#image {
+  width: 100%;
+}
+
+/* line 73, ../compass/sass/style.scss */
+#profile {
+  border: 1px solid black;
+  margin-bottom: 2%;
+}
+/* line 76, ../compass/sass/style.scss */
+#profile #prof-pic {
+  padding: 0;
+}
+/* line 80, ../compass/sass/style.scss */
+#profile #prof-pic img {
+  width: 100%;
+  margin-left: 15%;
+}
+/* line 86, ../compass/sass/style.scss */
+#profile #name {
+  margin-top: 4%;
+}
+/* line 89, ../compass/sass/style.scss */
+#profile #subscribebtn {
+  margin: 8% 2% 0% 8%;
+}
+
+/* line 95, ../compass/sass/style.scss */
+#view-box {
+  background-color: #ccc;
+  padding-bottom: 15px;
+}
+
+/* line 99, ../compass/sass/style.scss */
+#video-queue {
+  margin-top: 0%;
+}
+/* line 102, ../compass/sass/style.scss */
+#video-queue img {
+  width: 60%;
+  height: 100%;
+}
+/* line 106, ../compass/sass/style.scss */
+#video-queue .queue-text {
+  font-size: 12px;
+  padding: 5% 0%;
+}
+/* line 109, ../compass/sass/style.scss */
+#video-queue .queue-text .title {
+  margin-top: 5%;
+}
+
+/* line 114, ../compass/sass/style.scss */
+#video-box {
+  padding-left: 0px;
+}
+/* line 116, ../compass/sass/style.scss */
+#video-box iframe {
+  padding-bottom: 1%;
+}
+/* line 119, ../compass/sass/style.scss */
+#video-box #views {
+  text-align: right;
+  padding-right: 0;
+  padding-top: 7.5%;
+}
+/* line 124, ../compass/sass/style.scss */
+#video-box .glyphicon {
+  font-size: 30px;
+  top: 9px;
+}
+/* line 128, ../compass/sass/style.scss */
+#video-box .atag {
+  padding: 0px 15px 10px;
+}
+
+/* line 133, ../compass/sass/style.scss */
+.C {
+  background-color: #eee;
+}
+/* line 135, ../compass/sass/style.scss */
+.C .row {
+  margin-bottom: 2.5%;
+}
+
+/* line 139, ../compass/sass/style.scss */
+#ad-window {
+  background-color: #eee;
+  height: 418px;
+  margin-left: 5%;
+  width: 28%;
+}
+/* line 144, ../compass/sass/style.scss */
+#ad-window img {
+  width: 100%;
+  margin-top: 20px;
+}
+
+/* line 150, ../compass/sass/style.scss */
+.vid-item {
+  padding: 2%;
+}
+
+/* line 153, ../compass/sass/style.scss */
+#gap1, #gap2 {
+  height: 25px;
+}
+
+/* line 156, ../compass/sass/style.scss */
+.active {
+  padding-bottom: 2px;
+  border-bottom: 1px solid #009;
+}
+
+/* line 160, ../compass/sass/style.scss */
+a {
+  color: #009;
+}
+
+/* line 163, ../compass/sass/style.scss */
+a:hover {
+  text-decoration: none;
+  color: #009;
+}

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Youtube BoilerPlate</title>
+	
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+	<script type="text/javascript" src="controller.js"></script>
+</head>
+<body>
+	<div class="container A">
+        <div class="row">
+            <div id="youtube" class="col-xs-2">
+                <img id="image" src="https://www.youtube.com/yt/brand/media/image/YouTube-logo-full_color.png">
+            </div>
+            <div class="col-xs-5 col-xs-offset-1">
+                <input class="search-bar" type="text" name="searchbar" value="" placeholder="Search...">
+                <button type="submit">Search</button>
+            </div>
+            <div class="links col-xs-3 col-xs-offset-1">
+                <a href="#">Create Account</a> or <a href="#">Sign Up</a>
+            </div>
+        </div>
+        <div class="row two">
+            <div class="col-xs-3 col-xs-offset-4">
+                <a href="index.html" title="home">Home</a>            
+                <span>|</span>
+                <a class="active" href="#" title="videos">Videos</a> 
+                <span>|</span> 
+                <a href="#" title="channels">Channels</a>
+            </div>
+            <div class="col-xs-4 col-xs-offset-1">
+                <a href="#" title="subscriptions">Subscriptions</a>
+                <span></span>
+                <a href="#" title="history">History</a>
+                <span></span>
+                <a href="#" title="upload">Upload</a>
+            </div>
+            
+
+        </div>
+
+    </div>
+    <div class="container B">
+        <div class="row">
+            <div class="col-xs-8">
+                <h3>Video Title</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div id="video-box" class="col-xs-8">
+
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/RGJb2iLvOKE?autoplay=false"></iframe>
+                </div>
+
+                <ul class="nav nav-pills col-xs-6">
+                    <li>
+                        <a href="#" class="atag">
+                            <span class="glyphicon glyphicon-envelope"></span> Share
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="atag">
+                            <span class="glyphicon glyphicon-heart"></span> Like
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="atag">
+                            <span class="glyphicon glyphicon-info-sign"></span> Info
+                        </a>
+                    </li>
+                </ul>
+                <div class="col-xs-3 col-xs-offset-3">
+                    <div id="views"><span id="view-number">125,450</span> Views
+                    </div>
+                </div>
+                <div id="comment-section" class="col-xs-12">
+                    <div id="comment-header" class="col-xs-12">
+                        <h4>Comments</h4>
+                    </div>
+                    <div id="comment1" class="col-xs-12">
+                        <div class="user col-xs-12">
+                            <a class="users" href="#">User 1</a>
+                            <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat. Duis aute irure
+                            </div>
+                        </div>
+                    </div>
+                    <div id="comment2" class="col-xs-12">
+                        <div class="user col-xs-12">
+                            <a class="users" href="#">User 2</a>
+                            <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat. Duis aute irure
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <div id="profile" class="col-xs-4">
+                <div class="row">
+                    <div id="prof-pic" class="col-xs-2">
+                        <img src="http://philosophy.ucr.edu/wp-content/uploads/2014/10/no-profile-img.gif">
+                    </div>
+                    <div id="name" class="col-xs-6">
+                        <a href="#">User Name</a>
+                        <div id="prof-info">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        </div>
+                    </div>
+                    <button type="button" class="btn btn-info" id="subscribebtn">Subscribe</button>
+                    <div class="col-xs-12">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                    </div>
+                    
+                </div>
+            </div>
+        <div class="row">
+            <div id="related-videos" class="col-xs-4">
+
+            </div>
+
+
+
+        </div>
+        </div>  
+    </div>
+</body>
+</html>

@@ -1,0 +1,168 @@
+$gray: #ccc;
+$lt-gray: #eee;
+$blue: #009;
+.A{
+	border-bottom: 1px solid black;
+	.search-bar{
+		margin-top:10%;
+		width:70%;
+	}
+	.links{
+		margin-top:3%;
+	}
+	.row{
+		text-align: center;
+		#youtube{
+			margin-bottom: -4%;
+		}
+		span{
+			margin:0px 8%;
+		}
+	}
+	.row.two{
+		margin-bottom:2%;
+		margin-top: 1.5%;
+		}
+	
+}
+.B{
+	padding-left: 0%;
+	padding-right: 0%;
+	#prof-pic{
+		img{
+			width:100%;
+		}
+	}
+	.row{
+		#comment-section{
+			padding-left:0px;
+
+			#comment-header{
+				padding-left:0px;
+			}
+			
+			#comment1, #comment2{
+				padding-left:0;
+				.user{
+					margin-bottom:2.5%;
+					padding-left:0px;
+				}
+			}
+		}
+
+
+	}
+
+
+}
+#more-videos{
+	.thumb{
+		margin:2.5% 0%;
+	}
+	.info{
+		padding:3%;
+		font-size:10px;
+	}
+}
+#prof-info{
+	font-size:10px;
+}
+#image{
+	width:100%;
+}
+#profile{
+	border: 1px solid black;
+	margin-bottom:2%;
+	#prof-pic{
+		
+		padding: 0;
+
+		img{
+			width: 100%;
+			margin-left: 15%;
+
+		}
+	}
+	#name{
+			margin-top: 4%;
+		}
+	#subscribebtn{
+			margin: 8% 2% 0% 8%;
+		}
+	
+
+}
+#view-box{
+	background-color: $gray;
+	padding-bottom:15px;
+}
+#video-queue{
+	margin-top:0%;
+
+	img{
+		width:60%;
+		height:100%;
+	}
+	.queue-text{
+		font-size:12px;
+		padding:5% 0%;
+		.title{
+			margin-top: 5%;
+		}	
+	}
+}
+#video-box{
+	padding-left:0px;
+	iframe{
+		padding-bottom: 1%;
+	}
+	#views{
+		text-align: right;
+		padding-right:0;
+		padding-top: 7.5%;
+	}
+	.glyphicon{
+		font-size: 30px;
+		top: 9px;
+	}
+	.atag{
+		padding: 0px 15px 10px;
+	}
+
+}
+.C{
+	background-color: $lt-gray;
+	.row{
+		margin-bottom:2.5%;
+	}
+}
+#ad-window{
+	background-color: $lt-gray;
+	height:418px;
+	margin-left: 5%;
+	width: 28%;
+	img{
+		width:100%;
+		margin-top:20px;
+	}
+}
+
+.vid-item{
+	padding:2%;
+}
+#gap1, #gap2{
+	height:25px;
+}
+.active{
+	padding-bottom: 2px;
+	border-bottom:1px solid $blue;
+}
+a{
+	color: $blue;
+}
+a:hover{
+	text-decoration: none;
+	color: $blue;
+}
+
+
